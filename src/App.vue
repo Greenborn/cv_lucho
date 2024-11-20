@@ -1,5 +1,5 @@
 <template>
-  <div class="row justify-content-end d-print-none">
+  <div id="contDescarga" class="row justify-content-end">
     <div class="col-auto">
       <button type="button" class="btn btn-dark" @click="descargar()">Descargar</button>
     </div>
@@ -53,6 +53,14 @@ function descargar(){
   background-color: #fff;
   padding-bottom: 10rem;
   padding-top: 5rem;
+}
+
+ #contDescarga{
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  z-index: 1000;
 }
 
 .section{

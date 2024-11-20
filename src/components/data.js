@@ -72,17 +72,12 @@ export const INFO_CV = {
             titulo: "Ing. en Sistemas <small> (no finalizada) <small>",
             inicio: "2012",
             egresado: "",
-            completo: true,
-            experiencia_especifica: [
-
-            ]
         },
         {
             institucion: "EET Nº2 - Ing. Felipe Senillosa",
             titulo: "Tecnico en Informática Personal y Profesional",
             inicio: "2008",
             egresado: "2011",
-            completo: true
         },
     ],
 
@@ -99,29 +94,18 @@ export const INFO_CV = {
             experiencia_especifica: [
                 {
                     titulo: "Búsqueda de trabajo en plataformas Freelance.",
-                    descripcion: `Busqueda en plataformas de trabajo en Freelancer y Workana, de vez en cuando busco trabajo por allí pero debido a malas
-                    experiencias busco trabajar por otros medios.`
                 },
                 {
                     titulo: "Desarrollo Web FullStack.",
-                    descripcion: `Desarrollo de sistemas a medida, desarrollo de nuevas funcionalidades en sistemas ya existentes, mantenimiento de proyectos Legacy,
-                    QA, y resolución de errores.`
                 },
                 {
                     titulo: "Configuración de Servidores",
-                    descripcion: `Configuración integral de VPS para el hosting y la ejecución de aplicaciones Web, en plataformas como AWS, DigitalOcean, 
-                    Don Web, entre otras. encargandome de la configuración de Nginx, PHP, MariaDB, Postgres, de la configuración de puertos abiertos, 
-                    el entorno de desarrollo y de gestión de procesos de NodeJS (NPM, PM2), configuración de serviciós del sistema específicos, subida de archivos por SSH y FTP, despliegue de 
-                    sistemas con Docker o Manualmente, configuración de registros DNS, entre otras actividades.`
                 },
                 {
                     titulo: "Testing",
-                    descripcion: `Dada la importancia de la QA en el desarrollo de software, me encargo de realizar pruebas 
-                    para reducir la prevalencia de bugs y mejorar la calidad del producto.`
                 },
                 {
                     titulo: "Comunicación con Clientes",
-                    descripcion: ``
                 },
             ]
         },
@@ -138,27 +122,18 @@ export const INFO_CV = {
             experiencia_especifica: [
                 {
                     titulo: "Búsqueda de trabajo en plataformas Freelance",
-                    descripcion: `Una de mis tareas era la búsqueda de trabajo, para lo cual decidimos buscar en Workana y Freelancer, debí
-                    aprender a como realizar un presupuesto así como mejorar mi estimación de plazos (en un principio tendía a sub-estimar el trabajo),
-                    me tocaron diferentes tipos de trabajos, lo que también me permitió aprender de ellos así como tener una mejor comprensión sobre los
-                    stacks más requeridos.`,
-                    habilidades: ["+ Confección de Presupuesto", "+ Ventas"]
                 },
                 {
                     titulo: "Desarrollo Web FullStack",
-                    descripcion: ``
                 },
                 {
                     titulo: "Configuración de Servidores",
-                    descripcion: ""
                 },
                 {
                     titulo: "Testing",
-                    descripcion: ""
                 },
                 {
                     titulo: "Comunicación con Clientes",
-                    descripcion: ""
                 },
             ]
         },
@@ -188,42 +163,6 @@ export const INFO_CV = {
                 }
             ]
         },
-        /*{
-            puesto: "Técnico en Informática",
-            inicio: "2011",
-            fin: "2014",
-            empresa_organizacion: "Cuenta Propia",
-            descripcion: `Realizaba tareas de mantenimiento, actualización y reparación de computadoras y notebooks en comercios
-            y casas particulares, también me dediqué a la compra y venta de equipos usados así como a la venta de routers inalámbricos.`,
-            experiencia_especifica: [
-                {
-                    titulo: "Diseño de Folletos",
-                    descripcion: `Con la necesidad de autopublicitarme necesité diseñar mis propios folletos, debí aprender por mi cuenta a partir
-                     de múltiples fuentes de información usando herramientas libres. Los mismos fueron pensados para ser impresos en cualquier fotocopiadora
-                      de la ciudad de forma de ahorrar los mayores costos sin sacrificar calidad.`,
-                    habilidades: ["+ Adaptabilidad", "+ Diseño"]
-                },
-                {
-                    titulo: "Reparto de Folletos",
-                    descripcion: `Los folletos una vez impresos debian ser entregados puerta a puerta, por lo que debí planificar el recorrido por diverzas
-                     zonas de la ciudad.`,
-                    habilidades: ["+ Adaptabilidad", "+ Estado Físico", "+ Planificación"]
-                },
-                {
-                    titulo: "Ventas",
-                    descripcion: `Parte de las actividades económicas era la compra y venta de computadoras usadas, las cuales reacondicionaba las actualizaba
-                    y las volvia a vender, sacando el mayor provecho posible de equipos antiguos aunque aún no obsoletos.`,
-                    habilidades: ["+ Adaptabilidad", "+ Ventas"]
-                },
-                {
-                    titulo: "Servicio Técnico Domiciliario",
-                    descripcion: `El servicio técnico casi siempre se realizaba a domicilio, con visitas de entre 30 minutos y 4 horas segun fuera el caso,
-                    en general acupándome de ayudar a resolver los problemas planteados por los usuarios, buscando realizar el trabajo de la forma más 
-                    rápida posible.`,
-                    habilidades: ["+ Adaptabilidad"]
-                },
-            ]
-        }*/
     ],
 
     'idiomas': [
