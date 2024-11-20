@@ -1,43 +1,43 @@
 <template>
 
-    <div class="row justify-content-center">
-        <div class="col-12 col-sm-10 col-lg-8 p-0">
+    <div class="row justify-content-center ">
+        <div class="col-12 col-sm-10  section">
 
-            <div class="row">
-                <div class="col">
-                    <h2 class="text-center mt-5">{{ info.puesto }}</h2>
-                    <h2 class="text-center mb-5">{{ info.descripcion_puesto }}</h2>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col">
-                    <h4 class="text-center">Contacto</h4>
-
-                    <ul>
-                        <li><b>Perfil Github:</b> <a :href="info.link_github" target="_blank">{{ info.link_github
-                                }}</a></li>
-                        <li><b>Perfil LinkedIn: </b><a :href="info.link_linkedin" target="_blank">{{ info.link_linkedin
-                                }}</a></li>
-                        <li><b>Email: </b><a :href="'mailto:' + info.email" target="_blank">{{ info.email }}</a></li>
-                    </ul>
+            <div class="row cont-prof-1">
+                <div class="col-12  pl-5 pr-5 pt-5">
+                    <h2 >{{ info.nombre_completo }}</h2>
+                    <p ><b>{{ info.puesto }}</b></p>
                 </div>
 
-                <div class="col">
-                    <h4 class="text-center">Información Personal</h4>
-
+                <div class="col pl-5 pr-5 pb-5">
                     <ul>
-                        <li><b>Nombre y Apellido: </b>{{ info.nombre_completo }}</li>
                         <li><b>Fecha de Nacimiento: </b>{{ info.fecha_nacimiento }}</li>
                         <li><b>Nacionalidad: </b>{{ info.nacionalidad }}</li>
                         <li><b>Ciudad de Residencia: </b>{{ info.ciudad_residencia }}, {{ info.provincia_residencia }}
                         </li>
+                        <li><b>Email: </b><a :href="'mailto:' + info.email" target="_blank"><small>{{ info.email }}</small></a></li>
                     </ul>
-
                 </div>
 
+                <div class="col pl-5 pr-5 pb-5">
+                    <ul>
+                        <li><b>Github:</b> <a :href="info.link_github" target="_blank"><small>{{ info.link_github
+                                }}</small></a></li>
+                        <li><b>LinkedIn: </b><a :href="info.link_linkedin" target="_blank"><small>{{ info.link_linkedin
+                                }}</small></a></li>
+                        
+                    </ul>
+                </div>
             </div>
+
+            <div class="row">
+                <div class="col pl-5 pr-5 pt-5 mt-2 pb-0">
+                    <h4><b>Perfil Profesional</b></h4>
+                    <p v-html="info.perfil_profesional"></p>
+                </div>
+            </div>
+
+            
         </div>
     </div>
 
@@ -46,3 +46,9 @@
 <script setup>
 const props = defineProps(['info'])
 </script>
+
+<style scoped>
+.cont-prof-1{
+    background-color: #cbe6ff;
+}
+</style>

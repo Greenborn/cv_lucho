@@ -1,9 +1,9 @@
 <template>
-    <div class="row justify-content-center pb-5">
-        <div class="col-12 col-sm-10 col-lg-8">
+    <div class="row justify-content-center ">
+        <div class="col-12 col-sm-10  section pr-5 pl-5 pb-5">
             
             <div class="row mt-3 mb-3">
-                <h2 class="text-center">Intereses</h2>
+                <div class="col"><h4 ><b>Intereses</b></h4></div>
             </div>
             
             <div class="row">

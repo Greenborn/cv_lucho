@@ -11,15 +11,20 @@ export const INFO_CV = {
         provincia_residencia: "Buenos Aires",
         email: "luciano.n.vega@gmail.com",
         link_github: "https://github.com/2012lucho",
-        link_linkedin: "https://www.linkedin.com/in/luciano-vega-56097176/"
+        link_linkedin: "https://www.linkedin.com/in/luciano-vega-56097176/",
+        perfil_profesional: `Desarrollador Full Stack con más de 8 años de experiencia en pequeños y mediados proyectos
+        de desarrollo web a medida para el consumidor final, 
+        especializado en NodeJS, PHP y tecnologías de scraping. 
+        Priorizo la resolución de problemas buscando el equilibrio entre eficiencia y eficacia,
+        y me adapto rápidamente a las necesidades del proyecto aprendiendo lo que sea necesario.`
     },
 
     'haciendo_actualmente': [
         {
             titulo: "Grupo Fotográfico Centro",
-            descripcion_organizacion: `Desarrollo de Sistema de Gestión de Concursos Fotográficos para El GFC (Grupo Fotográfico Centro) que agrupa desde 
+            descripcion_organizacion: `Desarrollé un Sistema de Gestión de Concursos Fotográficos para El GFC (Grupo Fotográfico Centro) que agrupa desde 
             el año 1967 a los fotoclubes del centro este de la provincia de Buenos Aires 
-            pertenecientes a la F.A.F (Federación Argentina de Fotografía). Las ciudades que se encuentran representadas actualmente son: Balcarce, 
+            pertenecientes a la F.A.F (Federación Argentina de Fotografía). <br><br>Las ciudades que se encuentran representadas actualmente son: Balcarce, 
             Benito Juarez, Necochea, Olavarria y Tandil. 
             Cuenta como objetivo la promoción de la actividad fotográfica en el ámbito fotoclubista y el aprendizaje continuo.`,
             url: "https://www.grupofotograficocentro.com/",
@@ -28,17 +33,16 @@ export const INFO_CV = {
         },
         {
             titulo: "Buscador e Histórico de Precios",
-            descripcion_organizacion: `Comenzó con la idea de generar una base de datos para el seguimiento de la evolución de los precios a nivel local 
-            en momentos de incertidumbre económica, y falta de datos fiables sobre precios, luego se agregó la posibilidad de realizar búsquedas.
-            \n\n Los precios se obtienen a partir del Scraping de sitios que hacen públicos sus precios, para lo que fue necesario desarrollar un 
-            servicio que coordina la ejecución de los scrapper's y centraliza la información para su posterior almacenamiento en la base de datos.`,
+            descripcion_organizacion: `Desarrollé un sistema de control de scrapers para la obtención de precios de diversas fuentes, registrando
+            datos de más de 40 comercios realizando seguimiento de más de 30mil precios de diversos tipos de artículos, implementé una
+            la funcionalidad de busqueda de precios y la posibilidad de visualizar su evolución a lo largo del tiempo.`,
             url: "https://precios.greenborn.com.ar/",
             tareas_realizadas: ["Desarrollo","Mantenimiento","DevOps"],
             tecnologias_usadas: ["NodeJS", "Express", "MariaDB", "Vue", "Bootstrap", "Python", "Selenium"]
         },
         {
             titulo: "Instancia propia de Redmine",
-            descripcion_organizacion: `Gestión de instancia propia de Redmine para gestión de las tareas del día a día.`,
+            descripcion_organizacion: `Gestiono una instancia propia de Redmine para la organización de las tareas del día a día.`,
             url: "https://redmine.greenborn.com.ar/",
             tareas_realizadas: ["DevOps"],
             tecnologias_usadas: ["Redmine", "Nginx", "MariaDB"]
@@ -53,9 +57,9 @@ export const INFO_CV = {
         },
         {
             titulo: "Mapa de Quejas y Reclamos",
-            descripcion_organizacion: `Se trata de un tablero público de reclamos en donde cualquier usuario puede subir una queja geolocandizándola con 
+            descripcion_organizacion: `Desarrollé un tablero público de reclamos en donde cualquier usuario puede subir una queja geolocandizándola con 
             su ubicación actual o la que proporcione, una breve descripción y hasta tres imágenes.
-            \n\n Uno de sus objetivos es ser una prueba de concepto y base para posibles aplicaciones que requieran la geolocalización.`,
+            <br><br> Uno de sus objetivos es ser una prueba de concepto y base para posibles aplicaciones que requieran la geolocalización.`,
             url: "https://titanesdecristal.com/",
             tareas_realizadas: ["DevOps","Desarrollo","Mantenimiento",],
             tecnologias_usadas: ["Open Street Map","Vue", "Express", "NodeJS", "MariaDB", "MariaDB"]
@@ -65,7 +69,7 @@ export const INFO_CV = {
     'estudios': [
         {
             institucion: "UNICEN",
-            titulo: "Ing. en Sistemas - no finalizada",
+            titulo: "Ing. en Sistemas <small> (no finalizada) <small>",
             inicio: "2012",
             egresado: "",
             completo: true,
@@ -87,6 +91,7 @@ export const INFO_CV = {
             puesto: "Desarrollador Web - FullStack",
             inicio: "2020",
             fin: "2024",
+            url: "https://greenborn.com.ar/",
             empresa_organizacion: "Greenborn",
             descripcion: `Microempresa de Software, aceptando trabajos de desarrollo de software a medida, centrándose en el desarrollo
             de bots de web scraping, sistemas de gestión de pequeño y mediano alcance, ampliación de sistemas en funcionamiento, QA, mantenimiento de
@@ -124,6 +129,7 @@ export const INFO_CV = {
             puesto: "Desarrollador Web - FullStack",
             inicio: "2014",
             fin: "2021",
+            url: "https://coodesoft.com.ar/",
             empresa_organizacion: "Coop. Coodesoft",
             descripcion: `Coodesoft es una cooperativa de desarrollo de Software Libre, de la que fui parte durante su
             proceso fundacional en conjunto con compañeros de estudio en la Facultad de Ciencias Exactas (UNICEN), 
@@ -223,7 +229,7 @@ export const INFO_CV = {
     'idiomas': [
         {
             idioma: "Inglés",
-            nivel: "A2"
+            nivel: "A2 (Lecto-comprensión)"
         },
         {
             idioma: "Español",
