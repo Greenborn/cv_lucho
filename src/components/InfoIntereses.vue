@@ -6,9 +6,14 @@
                 <h2 class="text-center">Intereses</h2>
             </div>
             
-            <div class="row" v-for="(item, index) in info" :key="index">
+            <div class="row">
                 <div class="col">
-                    {{ item }}
+                    <ul>
+                        <li v-for="(item, index) in info" :key="index">
+                            {{ item.titulo }}
+                        </li>
+                    </ul>
+                    
                 </div>
             </div>
 

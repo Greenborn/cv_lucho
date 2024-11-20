@@ -8,9 +8,17 @@
                 </div>
             </div>
             
-            <div class="row" v-for="(item, index) in info" :key="index">
-                <div class="col">
-                    {{ item }}
+            <div class="row border-bottom mb-3" v-for="(item, index) in info" :key="index">
+                <div class="col pb-1">
+                    
+                    <div class="row">
+                        <div class="col">
+                            <h4>{{  item.institucion }} </h4>
+                            <p>{{  item.titulo }}</p>
+                            <p><b>Año Inicio:</b> {{  item.inicio }} - <b>Año Fin:</b> {{  item.egresado }}</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

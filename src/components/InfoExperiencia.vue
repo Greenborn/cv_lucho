@@ -27,14 +27,8 @@
                     <div class="row">
                         <div class="col">
                             <ul>
-                                <li v-for="(item_exp, index_exp) in item.experiencia_especifica" :key="index_exp" class="mt-1 mb-2">
-                                    <div class="row border-bottom">
-                                        <div class="col">
-                                            <p><b>{{  item_exp.titulo }}</b></p>
-                                            <p>{{  item_exp.descripcion }}</p>
-                                            <p><b>Skills:</b> <span v-for="(item_skill, index_skill) in item_exp.habilidades" :key="index_skill"><small class="m-1">{{  item_skill }}</small>  </span></p>
-                                        </div>
-                                    </div>
+                                <li v-for="(item_exp, index_exp) in item.experiencia_especifica" :key="index_exp">
+                                    <b>{{  item_exp.titulo }}</b>
                                 </li>
                             </ul>
                         </div>  

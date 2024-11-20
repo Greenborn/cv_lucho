@@ -7,13 +7,13 @@
                     <h2 class="text-center">Idiomas</h2>
                 </div>
             </div>
-            
-            <div class="row" v-for="(item, index) in info" :key="index">
-                <div class="col">
-                    {{ item }}
-                </div>
-            </div>
 
+            <ul>
+                <li v-for="(item, index) in info" :key="index">
+                    <b>{{item.idioma}}: </b>{{ item.nivel }}
+                </li>
+            </ul>
+            
         </div>
     </div>
 </template>
