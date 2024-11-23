@@ -28,7 +28,7 @@ export const INFO_CV = {
             Benito Juarez, Necochea, Olavarria y Tandil. 
             Cuenta como objetivo la promoción de la actividad fotográfica en el ámbito fotoclubista y el aprendizaje continuo.`,
             url: "https://www.grupofotograficocentro.com/",
-            tareas_realizadas: ["Desarrollo","Mantenimiento","DevOps", "Construcción de Reportes"],
+            tareas_realizadas: ["Desarrollo","Mantenimiento","DevOps", "Construcción de Reportes", "Código Abierto"],
             tecnologias_usadas: ["PHP", "Yii", "Postgres", "Angular", "Ionic"]
         },
         {
@@ -38,7 +38,7 @@ export const INFO_CV = {
             la funcionalidad de busqueda de precios y la posibilidad de visualizar su evolución a lo largo del tiempo.`,
             url: "https://precios.greenborn.com.ar/",
             tareas_realizadas: ["Desarrollo","Mantenimiento","DevOps"],
-            tecnologias_usadas: ["NodeJS", "Express", "MariaDB", "Vue", "Bootstrap", "Python", "Selenium"]
+            tecnologias_usadas: ["NodeJS", "Express", "MariaDB", "Vue", "Bootstrap", "Python", "Selenium", "Código Abierto"]
         },
         {
             titulo: "Instancia propia de Redmine",
@@ -62,7 +62,7 @@ export const INFO_CV = {
             <br><br> Uno de sus objetivos es ser una prueba de concepto y base para posibles aplicaciones que requieran la geolocalización.`,
             url: "https://titanesdecristal.com/",
             tareas_realizadas: ["DevOps","Desarrollo","Mantenimiento",],
-            tecnologias_usadas: ["Open Street Map","Vue", "Express", "NodeJS", "MariaDB", "MariaDB"]
+            tecnologias_usadas: ["Open Street Map","Vue", "Express", "NodeJS", "MariaDB", "MariaDB", "Código Abierto"]
         }
     ],
     
@@ -88,7 +88,7 @@ export const INFO_CV = {
             fin: "2024",
             url: "https://greenborn.com.ar/",
             empresa_organizacion: "Greenborn",
-            descripcion: `Microempresa de Software, aceptando trabajos de desarrollo de software a medida, centrándose en el desarrollo
+            descripcion: `Microempresa de Desarrollo de Software, aceptando trabajos de desarrollo de software a medida, centrándose en el desarrollo
             de bots de web scraping, sistemas de gestión de pequeño y mediano alcance, ampliación de sistemas en funcionamiento, QA, mantenimiento de
             proyectos Legacy entre otras actividades.`,
             experiencia_especifica: [
