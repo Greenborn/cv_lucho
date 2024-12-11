@@ -60,7 +60,7 @@ export const INFO_CV = {
             descripcion_organizacion: `Desarrollé un tablero público de reclamos en donde cualquier usuario puede subir una queja geolocandizándola con 
             su ubicación actual o la que proporcione, una breve descripción y hasta tres imágenes.
             <br><br> Uno de sus objetivos es ser una prueba de concepto y base para posibles aplicaciones que requieran la geolocalización.`,
-            url: "https://titanesdecristal.com/",
+            url: "https://mapa.greenborn.com.ar",
             tareas_realizadas: ["DevOps","Desarrollo","Mantenimiento",],
             tecnologias_usadas: ["Open Street Map","Vue", "Express", "NodeJS", "MariaDB", "MariaDB", "Código Abierto"]
         }

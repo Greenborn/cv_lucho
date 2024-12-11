@@ -14,7 +14,7 @@
     <InfoEstudios :info="INFO_CV.estudios"/>
     <InfoIntereses :info="INFO_CV.intereses"/>
   </div>
-  <CursorPersonalizado />
+  <CustomCursor />
 </template>
 
 <script setup>
@@ -29,7 +29,6 @@ import InfoIntereses from './components/InfoIntereses.vue';
 import InfoPerfil from './components/InfoPerfil.vue';
 
 import { INFO_CV } from './components/data.js'
-import CursorPersonalizado from "./components/CursorPersonalizado.vue";
 
 function descargar(){
   const doc = new jsPDF();
