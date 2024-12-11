@@ -1,1 +1,4 @@
 
+html, a, button {
+    cursor:none !important;
+}

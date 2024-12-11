@@ -65,6 +65,16 @@ export const INFO_CV = {
             tecnologias_usadas: ["Open Street Map","Vue", "Express", "NodeJS", "MariaDB", "MariaDB", "Código Abierto"]
         }
     ],
+
+    'proyectos_realizados': [
+        {
+            titulo: "",
+            descripcion_organizacion: ``,
+            url: "",
+            tareas_realizadas: [],
+            tecnologias_usadas: []
+        }
+    ],
     
     'estudios': [
         {
